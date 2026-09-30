@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Barlow", system-ui, sans-serif;
+  --font-cond: "Barlow Semi Condensed", "Barlow", sans-serif;
+  --color-paper: #eef0f2; --color-card: #ffffff; --color-ink: #1b2530; --color-ink2: #4b5763; --color-ink3: #8a949e;
+  --color-rule: #d5dae0; --color-steel: #2e6a8a; --color-steel2: #245773; --color-brass: #b8912f; --color-brassbg: #fbf4e1;
+  --color-warn: #a64b2a; --color-slab: #1b2530;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-paper: #141a21; --color-card: #1c242d; --color-ink: #e6ebf0; --color-ink2: #aeb8c2; --color-ink3: #6f7a85;
+    --color-rule: #2e3944; --color-steel: #5da3c7; --color-steel2: #7fb8d6; --color-brass: #d9b45a; --color-brassbg: #2a2516; --color-slab: #0e1319;
+  }
+}
+html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+body { margin: 0; background: var(--color-paper); color: var(--color-ink); font-family: var(--font-sans); font-size: 16px; line-height: 1.45;
+  padding-top: env(safe-area-inset-top, 0px); }
+.btn { @apply inline-flex items-center justify-center gap-2 border border-rule bg-card text-ink px-4 py-3 rounded-xl font-semibold cursor-pointer hover:border-steel active:scale-[.98] select-none; min-height: 48px; }
+.btn-primary { @apply bg-steel border-steel text-white hover:bg-steel2; }
+.btn-sm { @apply px-3 py-2 text-[14px]; min-height: 40px; }
+.panel { @apply bg-card border border-rule rounded-2xl overflow-hidden; }
+.num { font-variant-numeric: tabular-nums; }
+.field { @apply w-full border border-rule rounded-xl px-3 py-3 bg-paper text-[16px]; min-height: 48px; }
+:focus-visible { outline: 3px solid var(--color-brass); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }

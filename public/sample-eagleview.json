@@ -1,0 +1,2841 @@
+{
+  "EAGLEVIEW_EXPORT": {
+    "REPORT": {
+      "@claimId": "",
+      "@reportId": "73445556"
+    },
+    "VERSION": {
+      "@coplanarity": "",
+      "@dormers": "",
+      "@precision": "0",
+      "@precisionUnits": "",
+      "@sourceVersion": "1028",
+      "@targetVersion": "0",
+      "@triangulation": ""
+    },
+    "LOCATION": {
+      "@address": "W164N10536 Timberline Ct",
+      "@city": "Germantown",
+      "@lat": "43.2092189",
+      "@long": "-88.1132679",
+      "@postal": "53022",
+      "@state": "WI"
+    },
+    "STRUCTURES": {
+      "@northorientation": "0.5",
+      "@ftPerPixel": "0.158120277",
+      "@globalRotationAngleRadians": "0.008726646",
+      "ROOF": {
+        "@id": "ROOF1",
+        "FACES": {
+          "FACE": [
+            {
+              "@designator": "D",
+              "@id": "F1",
+              "@material": "1",
+              "@type": "ROOF",
+              "@obstruction": "False",
+              "@children": "F33,F34,F35,F36,F37,F38,F39,F40",
+              "POLYGON": {
+                "@id": "P1",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L1,L3,L4,L2",
+                "@pitch": "4",
+                "@size": "785",
+                "@unroundedsize": "785.372589280"
+              }
+            },
+            {
+              "@designator": "C",
+              "@id": "F2",
+              "@material": "1",
+              "@type": "ROOF",
+              "@obstruction": "False",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P2",
+                "@orientation": "269.5",
+                "@direction": "West",
+                "@path": "L5,L7,L8,L9,L6,L4",
+                "@pitch": "4",
+                "@size": "610",
+                "@unroundedsize": "609.764039346"
+              }
+            },
+            {
+              "@designator": "A",
+              "@id": "F3",
+              "@material": "1",
+              "@type": "ROOF",
+              "@obstruction": "False",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P3",
+                "@orientation": "179.5",
+                "@direction": "South",
+                "@path": "L10,L12,L11,L8",
+                "@pitch": "4",
+                "@size": "361",
+                "@unroundedsize": "360.752440226"
+              }
+            },
+            {
+              "@designator": "B",
+              "@id": "F4",
+              "@material": "1",
+              "@type": "ROOF",
+              "@obstruction": "False",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P4",
+                "@orientation": "359.5",
+                "@direction": "North",
+                "@path": "L10,L7,L13,L15,L16,L14",
+                "@pitch": "4",
+                "@size": "370",
+                "@unroundedsize": "369.791273960"
+              }
+            },
+            {
+              "@designator": "D",
+              "@id": "F5",
+              "@material": "1",
+              "@type": "WALL",
+              "@obstruction": "False",
+              "@children": "F25,F26,F27,F55,F56",
+              "POLYGON": {
+                "@id": "P5",
+                "@orientation": "269.5",
+                "@direction": "West",
+                "@path": "L25,L24,L23,L18,L22,L21",
+                "@pitch": "∞",
+                "@size": "224",
+                "@unroundedsize": "224.482250828"
+              }
+            },
+            {
+              "@designator": "H",
+              "@id": "F6",
+              "@material": "1",
+              "@type": "WALL",
+              "@obstruction": "False",
+              "@children": "F21,F22,F23,F24,F41,F42",
+              "POLYGON": {
+                "@id": "P6",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L28,L27,L19,L26",
+                "@pitch": "∞",
+                "@size": "428",
+                "@unroundedsize": "427.593210507"
+              }
+            },
+            {
+              "@designator": "F",
+              "@id": "F7",
+              "@material": "1",
+              "@type": "WALL",
+              "@obstruction": "True",
+              "@children": "F30,F31,F43,F44",
+              "POLYGON": {
+                "@id": "P7",
+                "@orientation": "359.5",
+                "@direction": "North",
+                "@path": "L33,L32,L31,L28,L30,L29",
+                "@pitch": "∞",
+                "@size": "312",
+                "@unroundedsize": "311.911544276"
+              }
+            },
+            {
+              "@designator": "B",
+              "@id": "F8",
+              "@material": "1",
+              "@type": "WALL",
+              "@obstruction": "True",
+              "@children": "F32,F45,F46",
+              "POLYGON": {
+                "@id": "P8",
+                "@orientation": "179.5",
+                "@direction": "South",
+                "@path": "L24,L37,L36,L35,L34",
+                "@pitch": "∞",
+                "@size": "193",
+                "@unroundedsize": "192.617843526"
+              }
+            },
+            {
+              "@designator": "E",
+              "@id": "F9",
+              "@material": "1",
+              "@type": "WALL",
+              "@obstruction": "False",
+              "@children": "F28,F47,F48",
+              "POLYGON": {
+                "@id": "P9",
+                "@orientation": "269.5",
+                "@direction": "West",
+                "@path": "L41,L36,L40,L39,L38",
+                "@pitch": "∞",
+                "@size": "260",
+                "@unroundedsize": "260.335141440"
+              }
+            },
+            {
+              "@designator": "C",
+              "@id": "F10",
+              "@material": "1",
+              "@type": "WALL",
+              "@obstruction": "False",
+              "@children": "F49,F50",
+              "POLYGON": {
+                "@id": "P10",
+                "@orientation": "359.5",
+                "@direction": "North",
+                "@path": "L39,L44,L43,L42",
+                "@pitch": "∞",
+                "@size": "194",
+                "@unroundedsize": "194.240271854"
+              }
+            },
+            {
+              "@designator": "A",
+              "@id": "F11",
+              "@material": "1",
+              "@type": "WALL",
+              "@obstruction": "False",
+              "@children": "F51,F52",
+              "POLYGON": {
+                "@id": "P11",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L43,L46,L32,L45",
+                "@pitch": "∞",
+                "@size": "24",
+                "@unroundedsize": "23.572911966"
+              }
+            },
+            {
+              "@designator": "G",
+              "@id": "F12",
+              "@material": "1",
+              "@type": "WALL",
+              "@obstruction": "False",
+              "@children": "F29,F53,F54",
+              "POLYGON": {
+                "@id": "P12",
+                "@orientation": "179.5",
+                "@direction": "South",
+                "@path": "L48,L18,L17,L20,L19,L47",
+                "@pitch": "∞",
+                "@size": "314",
+                "@unroundedsize": "313.775246256"
+              }
+            },
+            {
+              "@designator": "H1",
+              "@id": "F21",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "@subType": "3",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P21",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L71,L73,L72,L70",
+                "@pitch": "∞",
+                "@size": "21",
+                "@unroundedsize": "21.000000000",
+                "@perimeter": "20",
+                "@unroundedperimeter": "20",
+                "@dimension": "3 x 7",
+                "@unroundeddimension": "3 x 7"
+              }
+            },
+            {
+              "@designator": "H2",
+              "@id": "F22",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "@subType": "5",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P22",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L75,L77,L76,L74",
+                "@pitch": "∞",
+                "@size": "10",
+                "@unroundedsize": "10.500000000",
+                "@perimeter": "13",
+                "@unroundedperimeter": "13",
+                "@dimension": "3 x 3",
+                "@unroundeddimension": "3.5 x 3"
+              }
+            },
+            {
+              "@designator": "H3",
+              "@id": "F23",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "@subType": "5",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P23",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L79,L81,L80,L78",
+                "@pitch": "∞",
+                "@size": "7",
+                "@unroundedsize": "7.500000000",
+                "@perimeter": "11",
+                "@unroundedperimeter": "11",
+                "@dimension": "2 x 3",
+                "@unroundeddimension": "2.5 x 3"
+              }
+            },
+            {
+              "@designator": "H4",
+              "@id": "F24",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "@subType": "5",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P24",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L83,L85,L84,L82",
+                "@pitch": "∞",
+                "@size": "7",
+                "@unroundedsize": "7.500000000",
+                "@perimeter": "11",
+                "@unroundedperimeter": "11",
+                "@dimension": "2 x 3",
+                "@unroundeddimension": "2.5 x 3"
+              }
+            },
+            {
+              "@designator": "D1",
+              "@id": "F25",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "@subType": "5",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P25",
+                "@orientation": "269.5",
+                "@direction": "West",
+                "@path": "L86,L88,L89,L87",
+                "@pitch": "∞",
+                "@size": "22",
+                "@unroundedsize": "22.000000000",
+                "@perimeter": "19",
+                "@unroundedperimeter": "19",
+                "@dimension": "5 x 4",
+                "@unroundeddimension": "5.5 x 4"
+              }
+            },
+            {
+              "@designator": "D2",
+              "@id": "F26",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "@subType": "5",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P26",
+                "@orientation": "269.5",
+                "@direction": "West",
+                "@path": "L90,L92,L93,L91",
+                "@pitch": "∞",
+                "@size": "8",
+                "@unroundedsize": "8.000000000",
+                "@perimeter": "12",
+                "@unroundedperimeter": "12",
+                "@dimension": "2 x 4",
+                "@unroundeddimension": "2 x 4"
+              }
+            },
+            {
+              "@designator": "D3",
+              "@id": "F27",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "@subType": "2",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P27",
+                "@orientation": "269.5",
+                "@direction": "West",
+                "@path": "L94,L96,L97,L95",
+                "@pitch": "∞",
+                "@size": "21",
+                "@unroundedsize": "21.000000000",
+                "@perimeter": "20",
+                "@unroundedperimeter": "20",
+                "@dimension": "3 x 7",
+                "@unroundeddimension": "3 x 7"
+              }
+            },
+            {
+              "@designator": "E1",
+              "@id": "F28",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "@subType": "5",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P28",
+                "@orientation": "269.5",
+                "@direction": "West",
+                "@path": "L99,L101,L100,L98",
+                "@pitch": "∞",
+                "@size": "13",
+                "@unroundedsize": "13.500000000",
+                "@perimeter": "15",
+                "@unroundedperimeter": "15",
+                "@dimension": "3 x 4",
+                "@unroundeddimension": "3 x 4.5"
+              }
+            },
+            {
+              "@designator": "G1",
+              "@id": "F29",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "@subType": "5",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P29",
+                "@orientation": "179.5",
+                "@direction": "South",
+                "@path": "L103,L105,L104,L102",
+                "@pitch": "∞",
+                "@size": "4",
+                "@unroundedsize": "3.750000000",
+                "@perimeter": "8",
+                "@unroundedperimeter": "8",
+                "@dimension": "1 x 2",
+                "@unroundeddimension": "1.5 x 2.5"
+              }
+            },
+            {
+              "@designator": "F1",
+              "@id": "F30",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "@subType": "5",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P30",
+                "@orientation": "359.5",
+                "@direction": "North",
+                "@path": "L107,L109,L108,L106",
+                "@pitch": "∞",
+                "@size": "12",
+                "@unroundedsize": "12.250000000",
+                "@perimeter": "14",
+                "@unroundedperimeter": "14",
+                "@dimension": "4 x 3",
+                "@unroundeddimension": "3.5 x 3.5"
+              }
+            },
+            {
+              "@designator": "F2",
+              "@id": "F31",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "@subType": "5",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P31",
+                "@orientation": "359.5",
+                "@direction": "North",
+                "@path": "L111,L113,L112,L110",
+                "@pitch": "∞",
+                "@size": "7",
+                "@unroundedsize": "7.000000000",
+                "@perimeter": "11",
+                "@unroundedperimeter": "11",
+                "@dimension": "2 x 3",
+                "@unroundeddimension": "2 x 3.5"
+              }
+            },
+            {
+              "@designator": "B1",
+              "@id": "F32",
+              "@material": "1",
+              "@type": "WALLPENETRATION",
+              "@subType": "4",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P32",
+                "@orientation": "179.5",
+                "@direction": "South",
+                "@path": "L115,L117,L116,L114",
+                "@pitch": "∞",
+                "@size": "112",
+                "@unroundedsize": "111.688597355",
+                "@perimeter": "46",
+                "@unroundedperimeter": "45.961074669",
+                "@dimension": "16 x 7",
+                "@unroundeddimension": "16 x 6.980537335"
+              }
+            },
+            {
+              "@designator": "3",
+              "@id": "F33",
+              "@material": "1",
+              "@type": "ROOFPENETRATION",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P33",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L118,L120,L121,L119",
+                "@pitch": "4",
+                "@size": "1",
+                "@unroundedsize": "1.000000000"
+              }
+            },
+            {
+              "@designator": "4",
+              "@id": "F34",
+              "@material": "1",
+              "@type": "ROOFPENETRATION",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P34",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L122,L124,L125,L123",
+                "@pitch": "4",
+                "@size": "1",
+                "@unroundedsize": "1.000000000"
+              }
+            },
+            {
+              "@designator": "5",
+              "@id": "F35",
+              "@material": "1",
+              "@type": "ROOFPENETRATION",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P35",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L126,L128,L129,L127",
+                "@pitch": "4",
+                "@size": "1",
+                "@unroundedsize": "1.000000000"
+              }
+            },
+            {
+              "@designator": "6",
+              "@id": "F36",
+              "@material": "1",
+              "@type": "ROOFPENETRATION",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P36",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L130,L132,L133,L131",
+                "@pitch": "4",
+                "@size": "1",
+                "@unroundedsize": "1.000000000"
+              }
+            },
+            {
+              "@designator": "7",
+              "@id": "F37",
+              "@material": "1",
+              "@type": "ROOFPENETRATION",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P37",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L134,L136,L137,L135",
+                "@pitch": "4",
+                "@size": "1",
+                "@unroundedsize": "1.000000000"
+              }
+            },
+            {
+              "@designator": "1",
+              "@id": "F38",
+              "@material": "1",
+              "@type": "ROOFPENETRATION",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P38",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L138,L140,L141,L139",
+                "@pitch": "4",
+                "@size": "0",
+                "@unroundedsize": "0.250000000"
+              }
+            },
+            {
+              "@designator": "2",
+              "@id": "F39",
+              "@material": "1",
+              "@type": "ROOFPENETRATION",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P39",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L142,L144,L145,L143",
+                "@pitch": "4",
+                "@size": "0",
+                "@unroundedsize": "0.250000000"
+              }
+            },
+            {
+              "@designator": "8",
+              "@id": "F40",
+              "@material": "1",
+              "@type": "ROOFPENETRATION",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P40",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L146,L148,L149,L147",
+                "@pitch": "4",
+                "@size": "1",
+                "@unroundedsize": "1.000000000"
+              }
+            },
+            {
+              "@designator": "1",
+              "@id": "F41",
+              "@material": "2",
+              "@type": "MATERIAL",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P41",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L158,L160,L156,L154",
+                "@pitch": "∞",
+                "@size": "406",
+                "@unroundedsize": "405.512264999",
+                "@sizelesspenetrations": "359",
+                "@unroundedsizelesspenetrations": "359.012264999"
+              }
+            },
+            {
+              "@designator": "1",
+              "@id": "F42",
+              "@material": "3",
+              "@type": "MATERIAL",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P42",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L160,L159,L155,L157",
+                "@pitch": "∞",
+                "@size": "22",
+                "@unroundedsize": "22.080945508",
+                "@sizelesspenetrations": "22",
+                "@unroundedsizelesspenetrations": "22.080945508"
+              }
+            },
+            {
+              "@designator": "1",
+              "@id": "F43",
+              "@material": "2",
+              "@type": "MATERIAL",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P43",
+                "@orientation": "359.5",
+                "@direction": "North",
+                "@path": "L164,L166,L167,L158,L161,L163",
+                "@pitch": "∞",
+                "@size": "300",
+                "@unroundedsize": "299.763143681",
+                "@sizelesspenetrations": "281",
+                "@unroundedsizelesspenetrations": "280.513143681"
+              }
+            },
+            {
+              "@designator": "1",
+              "@id": "F44",
+              "@material": "3",
+              "@type": "MATERIAL",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P44",
+                "@orientation": "359.5",
+                "@direction": "North",
+                "@path": "L167,L165,L162,L159",
+                "@pitch": "∞",
+                "@size": "12",
+                "@unroundedsize": "12.148400595",
+                "@sizelesspenetrations": "12",
+                "@unroundedsizelesspenetrations": "12.148400595"
+              }
+            },
+            {
+              "@designator": "1",
+              "@id": "F45",
+              "@material": "2",
+              "@type": "MATERIAL",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P45",
+                "@orientation": "179.5",
+                "@direction": "South",
+                "@path": "L197,L198,L173,L171,L170,L168",
+                "@pitch": "∞",
+                "@size": "183",
+                "@unroundedsize": "182.671040318",
+                "@sizelesspenetrations": "79",
+                "@unroundedsizelesspenetrations": "78.572216253"
+              }
+            },
+            {
+              "@designator": "1",
+              "@id": "F46",
+              "@material": "3",
+              "@type": "MATERIAL",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P46",
+                "@orientation": "179.5",
+                "@direction": "South",
+                "@path": "L173,L153,L169,L172",
+                "@pitch": "∞",
+                "@size": "10",
+                "@unroundedsize": "9.946803208",
+                "@sizelesspenetrations": "2",
+                "@unroundedsizelesspenetrations": "2.357029918"
+              }
+            },
+            {
+              "@designator": "1",
+              "@id": "F47",
+              "@material": "2",
+              "@type": "MATERIAL",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P47",
+                "@orientation": "269.5",
+                "@direction": "West",
+                "@path": "L174,L171,L179,L177,L176",
+                "@pitch": "∞",
+                "@size": "250",
+                "@unroundedsize": "249.785500729",
+                "@sizelesspenetrations": "236",
+                "@unroundedsizelesspenetrations": "236.285500729"
+              }
+            },
+            {
+              "@designator": "1",
+              "@id": "F48",
+              "@material": "3",
+              "@type": "MATERIAL",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P48",
+                "@orientation": "269.5",
+                "@direction": "West",
+                "@path": "L179,L172,L175,L178",
+                "@pitch": "∞",
+                "@size": "11",
+                "@unroundedsize": "10.549640710",
+                "@sizelesspenetrations": "11",
+                "@unroundedsizelesspenetrations": "10.549640710"
+              }
+            },
+            {
+              "@designator": "1",
+              "@id": "F49",
+              "@material": "2",
+              "@type": "MATERIAL",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P49",
+                "@orientation": "359.5",
+                "@direction": "North",
+                "@path": "L182,L180,L177,L184",
+                "@pitch": "∞",
+                "@size": "184",
+                "@unroundedsize": "184.209687484",
+                "@sizelesspenetrations": "184",
+                "@unroundedsizelesspenetrations": "184.209687484"
+              }
+            },
+            {
+              "@designator": "1",
+              "@id": "F50",
+              "@material": "3",
+              "@type": "MATERIAL",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P50",
+                "@orientation": "359.5",
+                "@direction": "North",
+                "@path": "L178,L181,L183,L184",
+                "@pitch": "∞",
+                "@size": "10",
+                "@unroundedsize": "10.030584370",
+                "@sizelesspenetrations": "10",
+                "@unroundedsizelesspenetrations": "10.030584370"
+              }
+            },
+            {
+              "@designator": "1",
+              "@id": "F51",
+              "@material": "2",
+              "@type": "MATERIAL",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P51",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L182,L187,L166,L186",
+                "@pitch": "∞",
+                "@size": "22",
+                "@unroundedsize": "22.480526732",
+                "@sizelesspenetrations": "22",
+                "@unroundedsizelesspenetrations": "22.480526732"
+              }
+            },
+            {
+              "@designator": "1",
+              "@id": "F52",
+              "@material": "3",
+              "@type": "MATERIAL",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P52",
+                "@orientation": "89.5",
+                "@direction": "East",
+                "@path": "L187,L183,L185,L165",
+                "@pitch": "∞",
+                "@size": "1",
+                "@unroundedsize": "1.092385234",
+                "@sizelesspenetrations": "1",
+                "@unroundedsizelesspenetrations": "1.092385234"
+              }
+            },
+            {
+              "@designator": "1",
+              "@id": "F53",
+              "@material": "3",
+              "@type": "MATERIAL",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P53",
+                "@orientation": "179.5",
+                "@direction": "South",
+                "@path": "L192,L193,L157,L190",
+                "@pitch": "∞",
+                "@size": "12",
+                "@unroundedsize": "12.232180693",
+                "@sizelesspenetrations": "12",
+                "@unroundedsizelesspenetrations": "12.232180693"
+              }
+            },
+            {
+              "@designator": "1",
+              "@id": "F54",
+              "@material": "2",
+              "@type": "MATERIAL",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P54",
+                "@orientation": "179.5",
+                "@direction": "South",
+                "@path": "L193,L191,L195,L196,L188,L189,L156",
+                "@pitch": "∞",
+                "@size": "302",
+                "@unroundedsize": "301.543065563",
+                "@sizelesspenetrations": "298",
+                "@unroundedsizelesspenetrations": "297.793065563"
+              }
+            },
+            {
+              "@designator": "1",
+              "@id": "F55",
+              "@material": "3",
+              "@type": "MATERIAL",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P55",
+                "@orientation": "269.5",
+                "@direction": "West",
+                "@path": "L198,L199,L195,L151,L194,L150,L153",
+                "@pitch": "∞",
+                "@size": "64",
+                "@unroundedsize": "63.773364267",
+                "@sizelesspenetrations": "57",
+                "@unroundedsizelesspenetrations": "57.299281971"
+              }
+            },
+            {
+              "@designator": "1",
+              "@id": "F56",
+              "@material": "2",
+              "@type": "MATERIAL",
+              "@children": "",
+              "POLYGON": {
+                "@id": "P56",
+                "@orientation": "269.5",
+                "@direction": "West",
+                "@path": "L199,L197,L152,L196",
+                "@pitch": "∞",
+                "@size": "161",
+                "@unroundedsize": "160.708886561",
+                "@sizelesspenetrations": "116",
+                "@unroundedsizelesspenetrations": "116.182968857"
+              }
+            }
+          ]
+        },
+        "LINES": {
+          "LINE": [
+            {
+              "@id": "L1",
+              "@path": "C5,C6",
+              "@type": "EAVE"
+            },
+            {
+              "@id": "L2",
+              "@path": "C8,C5",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L3",
+              "@path": "C6,C7",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L4",
+              "@path": "C7,C8",
+              "@type": "RIDGE"
+            },
+            {
+              "@id": "L5",
+              "@path": "C7,C9",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L6",
+              "@path": "C12,C8",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L7",
+              "@path": "C9,C10",
+              "@type": "VALLEY"
+            },
+            {
+              "@id": "L8",
+              "@path": "C10,C11",
+              "@type": "VALLEY"
+            },
+            {
+              "@id": "L9",
+              "@path": "C11,C12",
+              "@type": "EAVE"
+            },
+            {
+              "@id": "L10",
+              "@path": "C10,C13",
+              "@type": "RIDGE"
+            },
+            {
+              "@id": "L11",
+              "@path": "C14,C11",
+              "@type": "EAVE"
+            },
+            {
+              "@id": "L12",
+              "@path": "C13,C14",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L13",
+              "@path": "C9,C15",
+              "@type": "FLASHING"
+            },
+            {
+              "@id": "L14",
+              "@path": "C17,C13",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L15",
+              "@path": "C15,C16",
+              "@type": "RAKE"
+            },
+            {
+              "@id": "L16",
+              "@path": "C16,C17",
+              "@type": "EAVE"
+            },
+            {
+              "@id": "L17",
+              "@path": "C40,C22",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L18",
+              "@path": "C40,C35",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L19",
+              "@path": "C29,C45",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L20",
+              "@path": "C22,C45",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L21",
+              "@path": "C34,C37",
+              "@type": "INSIDECORNER"
+            },
+            {
+              "@id": "L22",
+              "@path": "C35,C34",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L23",
+              "@path": "C41,C40",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L24",
+              "@path": "C30,C41",
+              "@type": "INSIDECORNER"
+            },
+            {
+              "@id": "L25",
+              "@path": "C37,C30",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L26",
+              "@path": "C45,C44",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L27",
+              "@path": "C28,C29",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L28",
+              "@path": "C44,C28",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L29",
+              "@path": "C23,C49",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L30",
+              "@path": "C44,C23",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L31",
+              "@path": "C27,C28",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L32",
+              "@path": "C48,C27",
+              "@type": "INSIDECORNER"
+            },
+            {
+              "@id": "L33",
+              "@path": "C49,C48",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L34",
+              "@path": "C24,C41",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L35",
+              "@path": "C25,C24",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L36",
+              "@path": "C31,C25",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L37",
+              "@path": "C30,C31",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L38",
+              "@path": "C56,C26",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L39",
+              "@path": "C32,C56",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L40",
+              "@path": "C31,C32",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L41",
+              "@path": "C26,C25",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L42",
+              "@path": "C57,C56",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L43",
+              "@path": "C33,C57",
+              "@type": "OUTSIDECORNER"
+            },
+            {
+              "@id": "L44",
+              "@path": "C32,C33",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L45",
+              "@path": "C48,C57",
+              "@type": "TOPWALL"
+            },
+            {
+              "@id": "L46",
+              "@path": "C33,C27",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L47",
+              "@path": "C29,C38",
+              "@type": "BOTTOMWALL"
+            },
+            {
+              "@id": "L48",
+              "@path": "C38,C35",
+              "@type": "PARAPET"
+            },
+            {
+              "@id": "L70",
+              "@path": "C61,C60",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L71",
+              "@path": "C60,C63",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L72",
+              "@path": "C62,C61",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L73",
+              "@path": "C63,C62",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L74",
+              "@path": "C65,C64",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L75",
+              "@path": "C64,C67",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L76",
+              "@path": "C66,C65",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L77",
+              "@path": "C67,C66",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L78",
+              "@path": "C69,C68",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L79",
+              "@path": "C68,C71",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L80",
+              "@path": "C70,C69",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L81",
+              "@path": "C71,C70",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L82",
+              "@path": "C73,C72",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L83",
+              "@path": "C72,C75",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L84",
+              "@path": "C74,C73",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L85",
+              "@path": "C75,C74",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L86",
+              "@path": "C76,C77",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L87",
+              "@path": "C79,C76",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L88",
+              "@path": "C77,C78",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L89",
+              "@path": "C78,C79",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L90",
+              "@path": "C80,C81",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L91",
+              "@path": "C83,C80",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L92",
+              "@path": "C81,C82",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L93",
+              "@path": "C82,C83",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L94",
+              "@path": "C84,C85",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L95",
+              "@path": "C87,C84",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L96",
+              "@path": "C85,C86",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L97",
+              "@path": "C86,C87",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L98",
+              "@path": "C89,C88",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L99",
+              "@path": "C88,C91",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L100",
+              "@path": "C90,C89",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L101",
+              "@path": "C91,C90",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L102",
+              "@path": "C93,C92",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L103",
+              "@path": "C92,C95",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L104",
+              "@path": "C94,C93",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L105",
+              "@path": "C95,C94",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L106",
+              "@path": "C97,C96",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L107",
+              "@path": "C96,C99",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L108",
+              "@path": "C98,C97",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L109",
+              "@path": "C99,C98",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L110",
+              "@path": "C101,C100",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L111",
+              "@path": "C100,C103",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L112",
+              "@path": "C102,C101",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L113",
+              "@path": "C103,C102",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L114",
+              "@path": "C105,C104",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L115",
+              "@path": "C104,C107",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L116",
+              "@path": "C106,C105",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L117",
+              "@path": "C107,C106",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L118",
+              "@path": "C108,C109",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L119",
+              "@path": "C111,C108",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L120",
+              "@path": "C109,C110",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L121",
+              "@path": "C110,C111",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L122",
+              "@path": "C112,C113",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L123",
+              "@path": "C115,C112",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L124",
+              "@path": "C113,C114",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L125",
+              "@path": "C114,C115",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L126",
+              "@path": "C116,C117",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L127",
+              "@path": "C119,C116",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L128",
+              "@path": "C117,C118",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L129",
+              "@path": "C118,C119",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L130",
+              "@path": "C120,C121",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L131",
+              "@path": "C123,C120",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L132",
+              "@path": "C121,C122",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L133",
+              "@path": "C122,C123",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L134",
+              "@path": "C124,C125",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L135",
+              "@path": "C127,C124",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L136",
+              "@path": "C125,C126",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L137",
+              "@path": "C126,C127",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L138",
+              "@path": "C128,C129",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L139",
+              "@path": "C131,C128",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L140",
+              "@path": "C129,C130",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L141",
+              "@path": "C130,C131",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L142",
+              "@path": "C132,C133",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L143",
+              "@path": "C135,C132",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L144",
+              "@path": "C133,C134",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L145",
+              "@path": "C134,C135",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L146",
+              "@path": "C136,C137",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L147",
+              "@path": "C139,C136",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L148",
+              "@path": "C137,C138",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L149",
+              "@path": "C138,C139",
+              "@type": "OTHER"
+            },
+            {
+              "@id": "L150",
+              "@path": "C144,C149",
+              "@type": "BOTTOM_OF_MASONRY"
+            },
+            {
+              "@id": "L151",
+              "@path": "C146,C145",
+              "@type": "BOTTOM_OF_MASONRY"
+            },
+            {
+              "@id": "L152",
+              "@path": "C148,C147",
+              "@type": "TOP_OF_SIDING"
+            },
+            {
+              "@id": "L153",
+              "@path": "C150,C149",
+              "@type": "INSIDE_CORNER_MASONRY"
+            },
+            {
+              "@id": "L154",
+              "@path": "C152,C151",
+              "@type": "TOP_OF_SIDING"
+            },
+            {
+              "@id": "L155",
+              "@path": "C154,C153",
+              "@type": "BOTTOM_OF_MASONRY"
+            },
+            {
+              "@id": "L156",
+              "@path": "C155,C152",
+              "@type": "OUTSIDE_CORNER_SIDING"
+            },
+            {
+              "@id": "L157",
+              "@path": "C153,C155",
+              "@type": "OUTSIDE_CORNER_MASONRY"
+            },
+            {
+              "@id": "L158",
+              "@path": "C151,C156",
+              "@type": "OUTSIDE_CORNER_SIDING"
+            },
+            {
+              "@id": "L159",
+              "@path": "C156,C154",
+              "@type": "OUTSIDE_CORNER_MASONRY"
+            },
+            {
+              "@id": "L160",
+              "@path": "C156,C155",
+              "@type": "BOTTOM_OF_SIDING"
+            },
+            {
+              "@id": "L161",
+              "@path": "C151,C158",
+              "@type": "TOP_OF_SIDING"
+            },
+            {
+              "@id": "L162",
+              "@path": "C159,C154",
+              "@type": "BOTTOM_OF_MASONRY"
+            },
+            {
+              "@id": "L163",
+              "@path": "C158,C157",
+              "@type": "TOP_OF_SIDING"
+            },
+            {
+              "@id": "L164",
+              "@path": "C157,C160",
+              "@type": "TOP_OF_SIDING"
+            },
+            {
+              "@id": "L165",
+              "@path": "C161,C159",
+              "@type": "INSIDE_CORNER_MASONRY"
+            },
+            {
+              "@id": "L166",
+              "@path": "C160,C161",
+              "@type": "INSIDE_CORNER_SIDING"
+            },
+            {
+              "@id": "L167",
+              "@path": "C161,C156",
+              "@type": "BOTTOM_OF_SIDING"
+            },
+            {
+              "@id": "L168",
+              "@path": "C162,C148",
+              "@type": "TOP_OF_SIDING"
+            },
+            {
+              "@id": "L169",
+              "@path": "C149,C164",
+              "@type": "BOTTOM_OF_MASONRY"
+            },
+            {
+              "@id": "L170",
+              "@path": "C163,C162",
+              "@type": "TOP_OF_SIDING"
+            },
+            {
+              "@id": "L171",
+              "@path": "C165,C163",
+              "@type": "OUTSIDE_CORNER_SIDING"
+            },
+            {
+              "@id": "L172",
+              "@path": "C164,C165",
+              "@type": "OUTSIDE_CORNER_MASONRY"
+            },
+            {
+              "@id": "L173",
+              "@path": "C150,C165",
+              "@type": "BOTTOM_OF_SIDING"
+            },
+            {
+              "@id": "L174",
+              "@path": "C166,C163",
+              "@type": "TOP_OF_SIDING"
+            },
+            {
+              "@id": "L175",
+              "@path": "C164,C168",
+              "@type": "BOTTOM_OF_MASONRY"
+            },
+            {
+              "@id": "L176",
+              "@path": "C167,C166",
+              "@type": "TOP_OF_SIDING"
+            },
+            {
+              "@id": "L177",
+              "@path": "C169,C167",
+              "@type": "OUTSIDE_CORNER_SIDING"
+            },
+            {
+              "@id": "L178",
+              "@path": "C168,C169",
+              "@type": "OUTSIDE_CORNER_MASONRY"
+            },
+            {
+              "@id": "L179",
+              "@path": "C165,C169",
+              "@type": "BOTTOM_OF_SIDING"
+            },
+            {
+              "@id": "L180",
+              "@path": "C170,C167",
+              "@type": "TOP_OF_SIDING"
+            },
+            {
+              "@id": "L181",
+              "@path": "C168,C171",
+              "@type": "BOTTOM_OF_MASONRY"
+            },
+            {
+              "@id": "L182",
+              "@path": "C172,C170",
+              "@type": "OUTSIDE_CORNER_SIDING"
+            },
+            {
+              "@id": "L183",
+              "@path": "C171,C172",
+              "@type": "OUTSIDE_CORNER_MASONRY"
+            },
+            {
+              "@id": "L184",
+              "@path": "C169,C172",
+              "@type": "BOTTOM_OF_SIDING"
+            },
+            {
+              "@id": "L185",
+              "@path": "C171,C159",
+              "@type": "BOTTOM_OF_MASONRY"
+            },
+            {
+              "@id": "L186",
+              "@path": "C160,C170",
+              "@type": "TOP_OF_SIDING"
+            },
+            {
+              "@id": "L187",
+              "@path": "C172,C161",
+              "@type": "BOTTOM_OF_SIDING"
+            },
+            {
+              "@id": "L188",
+              "@path": "C147,C174",
+              "@type": "TOP_OF_SIDING"
+            },
+            {
+              "@id": "L189",
+              "@path": "C174,C152",
+              "@type": "TOP_OF_SIDING"
+            },
+            {
+              "@id": "L190",
+              "@path": "C153,C173",
+              "@type": "BOTTOM_OF_MASONRY"
+            },
+            {
+              "@id": "L191",
+              "@path": "C175,C146",
+              "@type": "PARAPET"
+            },
+            {
+              "@id": "L192",
+              "@path": "C173,C175",
+              "@type": "PARAPET"
+            },
+            {
+              "@id": "L193",
+              "@path": "C175,C155",
+              "@type": "BOTTOM_OF_SIDING"
+            },
+            {
+              "@id": "L194",
+              "@path": "C145,C144",
+              "@type": "INSIDE_CORNER_MASONRY"
+            },
+            {
+              "@id": "L195",
+              "@path": "C146,C176",
+              "@type": "OUTSIDE_CORNER_SIDING_TO_MASONRY"
+            },
+            {
+              "@id": "L196",
+              "@path": "C176,C147",
+              "@type": "OUTSIDE_CORNER_SIDING"
+            },
+            {
+              "@id": "L197",
+              "@path": "C148,C177",
+              "@type": "INSIDE_CORNER_SIDING"
+            },
+            {
+              "@id": "L198",
+              "@path": "C177,C150",
+              "@type": "INSIDE_CORNER_SIDING_TO_MASONRY"
+            },
+            {
+              "@id": "L199",
+              "@path": "C177,C176",
+              "@type": "BOTTOM_OF_SIDING"
+            }
+          ]
+        },
+        "POINTS": {
+          "POINT": [
+            {
+              "@id": "C5",
+              "@data": "85.521607274,73.479946347,9.185902076",
+              "@rawpixel": "536.788369,469.411370,0.000000"
+            },
+            {
+              "@id": "C6",
+              "@data": "85.521607274,121.882072471,9.185902076",
+              "@rawpixel": "534.117093,775.509260,0.000000"
+            },
+            {
+              "@id": "C7",
+              "@data": "70.128278140,121.882072471,14.317011788",
+              "@rawpixel": "436.768775,774.659714,32.450675"
+            },
+            {
+              "@id": "C8",
+              "@data": "70.128278140,73.479946347,14.317011788",
+              "@rawpixel": "439.440051,468.561824,32.450675"
+            },
+            {
+              "@id": "C9",
+              "@data": "58.060626112,121.882441117,10.294461112",
+              "@rawpixel": "360.452214,773.996041,7.010859"
+            },
+            {
+              "@id": "C10",
+              "@data": "67.854797053,112.088270176,13.559184759",
+              "@rawpixel": "422.931659,712.597661,27.657950"
+            },
+            {
+              "@id": "C11",
+              "@data": "54.734949007,98.968422130,9.185902076",
+              "@rawpixel": "340.685044,628.902897,0.000000"
+            },
+            {
+              "@id": "C12",
+              "@data": "54.734949007,73.479946347,9.185902076",
+              "@rawpixel": "342.091733,467.712278,0.000000"
+            },
+            {
+              "@id": "C13",
+              "@data": "35.209219175,112.088270176,13.559184759",
+              "@rawpixel": "216.479106,710.795977,27.657950"
+            },
+            {
+              "@id": "C14",
+              "@data": "35.209219175,98.968422130,9.185902076",
+              "@rawpixel": "217.203181,627.825287,0.000000"
+            },
+            {
+              "@id": "C15",
+              "@data": "58.976207029,121.882441117,10.294461112",
+              "@rawpixel": "366.242402,774.046571,7.010859"
+            },
+            {
+              "@id": "C16",
+              "@data": "58.976207029,125.208118222,9.185902076",
+              "@rawpixel": "366.058860,795.078349,0.000000"
+            },
+            {
+              "@id": "C17",
+              "@data": "35.209219175,125.208118222,9.185902076",
+              "@rawpixel": "215.755032,793.766667,0.000000"
+            },
+            {
+              "@id": "C22",
+              "@data": "70.128278140,74.356103682,14.317011788",
+              "@rawpixel": "439.391696,474.102695,32.450675"
+            },
+            {
+              "@id": "C23",
+              "@data": "70.128278140,120.905105810,14.317011788",
+              "@rawpixel": "436.822693,768.481320,32.450675"
+            },
+            {
+              "@id": "C24",
+              "@data": "56.734949007,100.968422130,9.852568743",
+              "@rawpixel": "353.222783,641.661393,4.216200"
+            },
+            {
+              "@id": "C25",
+              "@data": "36.266094568,100.968422130,9.852568743",
+              "@rawpixel": "223.776544,640.531733,4.216200"
+            },
+            {
+              "@id": "C26",
+              "@data": "36.266094568,112.088270176,13.559184759",
+              "@rawpixel": "223.162849,710.854305,27.657950"
+            },
+            {
+              "@id": "C27",
+              "@data": "57.411584108,120.905267581,0.000000000",
+              "@rawpixel": "356.401564,767.780518,-58.094397"
+            },
+            {
+              "@id": "C28",
+              "@data": "83.021625686,120.904941791,0.000000000",
+              "@rawpixel": "518.360990,769.191856,-58.094397"
+            },
+            {
+              "@id": "C29",
+              "@data": "83.021607400,74.356103682,0.000000000",
+              "@rawpixel": "520.929868,474.814267,-58.094397"
+            },
+            {
+              "@id": "C30",
+              "@data": "57.234949007,100.968422130,0.000000000",
+              "@rawpixel": "356.384812,641.688988,-58.094397"
+            },
+            {
+              "@id": "C31",
+              "@data": "36.266094568,100.968422130,0.000000000",
+              "@rawpixel": "223.776544,640.531733,-58.094397"
+            },
+            {
+              "@id": "C32",
+              "@data": "36.266094568,123.208118222,0.000000000",
+              "@rawpixel": "222.549153,781.176878,-58.094397"
+            },
+            {
+              "@id": "C33",
+              "@data": "57.411568064,123.208124739,0.000000000",
+              "@rawpixel": "356.274369,782.343921,-58.094397"
+            },
+            {
+              "@id": "C34",
+              "@data": "57.234949007,97.325845280,0.869661523",
+              "@rawpixel": "356.585843,618.653118,-52.594397"
+            },
+            {
+              "@id": "C35",
+              "@data": "57.234949007,74.356103682,0.869661523",
+              "@rawpixel": "357.853525,473.391122,-52.594397"
+            },
+            {
+              "@id": "C37",
+              "@data": "57.234949007,97.325845280,0.000000000",
+              "@rawpixel": "356.585843,618.653118,-58.094397"
+            },
+            {
+              "@id": "C38",
+              "@data": "57.234949007,74.356103682,0.000000000",
+              "@rawpixel": "357.853525,473.391122,-58.094397"
+            },
+            {
+              "@id": "C40",
+              "@data": "57.234949007,74.356103682,10.019235410",
+              "@rawpixel": "357.853525,473.391122,5.270250"
+            },
+            {
+              "@id": "C41",
+              "@data": "57.234949007,100.968422130,10.019235410",
+              "@rawpixel": "356.384812,641.688988,5.270250"
+            },
+            {
+              "@id": "C44",
+              "@data": "83.021625686,120.904941791,10.019229272",
+              "@rawpixel": "518.360990,769.191856,5.270211"
+            },
+            {
+              "@id": "C45",
+              "@data": "83.021607400,74.356103682,10.019235368",
+              "@rawpixel": "520.929868,474.814267,5.270249"
+            },
+            {
+              "@id": "C48",
+              "@data": "57.411584108,120.905267581,10.620185623",
+              "@rawpixel": "356.401564,767.780518,9.070839"
+            },
+            {
+              "@id": "C49",
+              "@data": "59.037820335,120.905246894,10.620192519",
+              "@rawpixel": "366.685978,767.870138,9.070882"
+            },
+            {
+              "@id": "C56",
+              "@data": "36.266094568,123.208118222,9.852568743",
+              "@rawpixel": "222.549153,781.176878,4.216200"
+            },
+            {
+              "@id": "C57",
+              "@data": "57.411568064,123.208124739,9.852566571",
+              "@rawpixel": "356.274369,782.343921,4.216186"
+            },
+            {
+              "@id": "C60",
+              "@data": "83.021616126,96.569620943,0.600429110",
+              "@rawpixel": "519.703977,615.293857,-54.297103"
+            },
+            {
+              "@id": "C61",
+              "@data": "83.021617305,99.569620943,0.600429110",
+              "@rawpixel": "519.538417,634.266033,-54.297103"
+            },
+            {
+              "@id": "C62",
+              "@data": "83.021617305,99.569620943,7.600429110",
+              "@rawpixel": "519.538417,634.266033,-10.027006"
+            },
+            {
+              "@id": "C63",
+              "@data": "83.021616126,96.569620943,7.600429110",
+              "@rawpixel": "519.703977,615.293857,-10.027006"
+            },
+            {
+              "@id": "C64",
+              "@data": "83.021612942,88.462609198,4.492863937",
+              "@rawpixel": "520.151376,564.024638,-29.680179"
+            },
+            {
+              "@id": "C65",
+              "@data": "83.021614317,91.962609198,4.492863937",
+              "@rawpixel": "519.958223,586.158843,-29.680179"
+            },
+            {
+              "@id": "C66",
+              "@data": "83.021614317,91.962609198,7.492863937",
+              "@rawpixel": "519.958223,586.158843,-10.707280"
+            },
+            {
+              "@id": "C67",
+              "@data": "83.021612942,88.462609198,7.492863937",
+              "@rawpixel": "520.151376,564.024638,-10.707280"
+            },
+            {
+              "@id": "C68",
+              "@data": "83.021621043,109.086180096,4.628673965",
+              "@rawpixel": "519.013229,694.449312,-28.821276"
+            },
+            {
+              "@id": "C69",
+              "@data": "83.021622025,111.586180096,4.628673965",
+              "@rawpixel": "518.875262,710.259459,-28.821276"
+            },
+            {
+              "@id": "C70",
+              "@data": "83.021622025,111.586180096,7.628673965",
+              "@rawpixel": "518.875262,710.259459,-9.848377"
+            },
+            {
+              "@id": "C71",
+              "@data": "83.021621043,109.086180096,7.628673965",
+              "@rawpixel": "519.013229,694.449312,-9.848377"
+            },
+            {
+              "@id": "C72",
+              "@data": "83.021618587,102.832640136,4.653164298",
+              "@rawpixel": "519.358341,654.901558,-28.666392"
+            },
+            {
+              "@id": "C73",
+              "@data": "83.021619569,105.332640136,4.653164298",
+              "@rawpixel": "519.220374,670.711705,-28.666392"
+            },
+            {
+              "@id": "C74",
+              "@data": "83.021619569,105.332640136,7.653164298",
+              "@rawpixel": "519.220374,670.711705,-9.693493"
+            },
+            {
+              "@id": "C75",
+              "@data": "83.021618587,102.832640136,7.653164298",
+              "@rawpixel": "519.358341,654.901558,-9.693493"
+            },
+            {
+              "@id": "C76",
+              "@data": "57.234949007,80.044992363,3.681182501",
+              "@rawpixel": "357.539560,509.367988,-34.813496"
+            },
+            {
+              "@id": "C77",
+              "@data": "57.234949007,85.544992363,3.681182501",
+              "@rawpixel": "357.236019,544.150311,-34.813496"
+            },
+            {
+              "@id": "C78",
+              "@data": "57.234949007,85.544992363,7.681182501",
+              "@rawpixel": "357.236019,544.150311,-9.516297"
+            },
+            {
+              "@id": "C79",
+              "@data": "57.234949007,80.044992363,7.681182501",
+              "@rawpixel": "357.539560,509.367988,-9.516297"
+            },
+            {
+              "@id": "C80",
+              "@data": "57.234949007,95.740450088,3.559739308",
+              "@rawpixel": "356.673340,608.626985,-35.581539"
+            },
+            {
+              "@id": "C81",
+              "@data": "57.234949007,97.740450088,3.559739308",
+              "@rawpixel": "356.562961,621.275103,-35.581539"
+            },
+            {
+              "@id": "C82",
+              "@data": "57.234949007,97.740450088,7.559739308",
+              "@rawpixel": "356.562961,621.275103,-10.284341"
+            },
+            {
+              "@id": "C83",
+              "@data": "57.234949007,95.740450088,7.559739308",
+              "@rawpixel": "356.673340,608.626985,-10.284341"
+            },
+            {
+              "@id": "C84",
+              "@data": "57.234949007,91.810477490,0.988983787",
+              "@rawpixel": "356.890232,583.773608,-51.839767"
+            },
+            {
+              "@id": "C85",
+              "@data": "57.234949007,94.810477490,0.988983787",
+              "@rawpixel": "356.724664,602.745784,-51.839767"
+            },
+            {
+              "@id": "C86",
+              "@data": "57.234949007,94.810477490,7.988983787",
+              "@rawpixel": "356.724664,602.745784,-7.569670"
+            },
+            {
+              "@id": "C87",
+              "@data": "57.234949007,91.810477490,7.988983787",
+              "@rawpixel": "356.890232,583.773608,-7.569670"
+            },
+            {
+              "@id": "C88",
+              "@data": "36.266094568,113.423308247,2.908873557",
+              "@rawpixel": "223.089169,719.297165,-39.697809"
+            },
+            {
+              "@id": "C89",
+              "@data": "36.266094568,110.423308247,2.908873557",
+              "@rawpixel": "223.254737,700.324988,-39.697809"
+            },
+            {
+              "@id": "C90",
+              "@data": "36.266094568,110.423308247,7.408873557",
+              "@rawpixel": "223.254737,700.324988,-11.238461"
+            },
+            {
+              "@id": "C91",
+              "@data": "36.266094568,113.423308247,7.408873557",
+              "@rawpixel": "223.089169,719.297165,-11.238461"
+            },
+            {
+              "@id": "C92",
+              "@data": "80.735919779,74.356103682,5.850897970",
+              "@rawpixel": "506.475046,474.688122,-21.091565"
+            },
+            {
+              "@id": "C93",
+              "@data": "82.235919779,74.356103682,5.850897970",
+              "@rawpixel": "515.961134,474.770906,-21.091565"
+            },
+            {
+              "@id": "C94",
+              "@data": "82.235919779,74.356103682,8.350897970",
+              "@rawpixel": "515.961134,474.770906,-5.280816"
+            },
+            {
+              "@id": "C95",
+              "@data": "80.735919779,74.356103682,8.350897970",
+              "@rawpixel": "506.475046,474.688122,-5.280816"
+            },
+            {
+              "@id": "C96",
+              "@data": "66.693815257,120.905149500,5.277806210",
+              "@rawpixel": "415.102946,768.292051,-24.715969"
+            },
+            {
+              "@id": "C97",
+              "@data": "63.193815257,120.905194025,5.277806210",
+              "@rawpixel": "392.968737,768.099170,-24.715969"
+            },
+            {
+              "@id": "C98",
+              "@data": "63.193815257,120.905194025,8.777806210",
+              "@rawpixel": "392.968737,768.099170,-2.580921"
+            },
+            {
+              "@id": "C99",
+              "@data": "66.693815257,120.905149500,8.777806210",
+              "@rawpixel": "415.102946,768.292051,-2.580921"
+            },
+            {
+              "@id": "C100",
+              "@data": "74.520563692,120.905049935,5.305752931",
+              "@rawpixel": "464.599768,768.723373,-24.539226"
+            },
+            {
+              "@id": "C101",
+              "@data": "72.520563692,120.905075377,5.305752931",
+              "@rawpixel": "451.951649,768.613156,-24.539226"
+            },
+            {
+              "@id": "C102",
+              "@data": "72.520563692,120.905075377,8.805752931",
+              "@rawpixel": "451.951649,768.613156,-2.404177"
+            },
+            {
+              "@id": "C103",
+              "@data": "74.520563692,120.905049935,8.805752931",
+              "@rawpixel": "464.599768,768.723373,-2.404177"
+            },
+            {
+              "@id": "C104",
+              "@data": "38.801814492,100.968422130,0.000000000",
+              "@rawpixel": "239.812586,640.671677,-58.094397"
+            },
+            {
+              "@id": "C105",
+              "@data": "54.801814492,100.968422130,0.000000000",
+              "@rawpixel": "340.997526,641.554705,-58.094397"
+            },
+            {
+              "@id": "C106",
+              "@data": "54.801814492,100.968422130,6.980537335",
+              "@rawpixel": "340.997526,641.554705,-13.947387"
+            },
+            {
+              "@id": "C107",
+              "@data": "38.801814492,100.968422130,6.980537335",
+              "@rawpixel": "239.812586,640.671677,-13.947387"
+            },
+            {
+              "@id": "C108",
+              "@data": "73.159802765,88.349358261,13.306503580",
+              "@rawpixel": "457.790959,562.764166,26.059918"
+            },
+            {
+              "@id": "C109",
+              "@data": "73.159802765,87.349358261,13.306503580",
+              "@rawpixel": "457.846149,556.440108,26.059918"
+            },
+            {
+              "@id": "C110",
+              "@data": "72.211119466,87.349358261,13.622731346",
+              "@rawpixel": "451.846620,556.387751,28.059837"
+            },
+            {
+              "@id": "C111",
+              "@data": "72.211119466,88.349358261,13.622731346",
+              "@rawpixel": "451.791431,562.711809,28.059837"
+            },
+            {
+              "@id": "C112",
+              "@data": "73.148281735,80.491013064,13.310343923",
+              "@rawpixel": "458.151796,513.066894,26.084206"
+            },
+            {
+              "@id": "C113",
+              "@data": "73.148281735,79.491013064,13.310343923",
+              "@rawpixel": "458.206985,506.742835,26.084206"
+            },
+            {
+              "@id": "C114",
+              "@data": "72.199598437,79.491013064,13.626571689",
+              "@rawpixel": "452.207456,506.690478,28.084125"
+            },
+            {
+              "@id": "C115",
+              "@data": "72.199598437,80.491013064,13.626571689",
+              "@rawpixel": "452.152267,513.014537,28.084125"
+            },
+            {
+              "@id": "C116",
+              "@data": "72.986057550,99.317241364,13.364418651",
+              "@rawpixel": "456.086876,632.116115,26.426191"
+            },
+            {
+              "@id": "C117",
+              "@data": "72.986057550,98.317241364,13.364418651",
+              "@rawpixel": "456.142065,625.792056,26.426191"
+            },
+            {
+              "@id": "C118",
+              "@data": "72.037374251,98.317241364,13.680646417",
+              "@rawpixel": "450.142536,625.739699,28.426110"
+            },
+            {
+              "@id": "C119",
+              "@data": "72.037374251,99.317241364,13.680646417",
+              "@rawpixel": "450.087347,632.063758,28.426110"
+            },
+            {
+              "@id": "C120",
+              "@data": "72.871951690,115.260390362,13.402453938",
+              "@rawpixel": "454.485373,732.935229,26.666737"
+            },
+            {
+              "@id": "C121",
+              "@data": "72.871951690,114.260390362,13.402453938",
+              "@rawpixel": "454.540563,726.611170,26.666737"
+            },
+            {
+              "@id": "C122",
+              "@data": "71.923268392,114.260390362,13.718681704",
+              "@rawpixel": "448.541034,726.558813,28.666656"
+            },
+            {
+              "@id": "C123",
+              "@data": "71.923268392,115.260390362,13.718681704",
+              "@rawpixel": "448.485844,732.882872,28.666656"
+            },
+            {
+              "@id": "C124",
+              "@data": "72.430454094,108.036933608,13.549619803",
+              "@rawpixel": "452.091974,687.229298,27.597458"
+            },
+            {
+              "@id": "C125",
+              "@data": "72.430454094,107.036933608,13.549619803",
+              "@rawpixel": "452.147163,680.905239,27.597458"
+            },
+            {
+              "@id": "C126",
+              "@data": "71.481770795,107.036933608,13.865847569",
+              "@rawpixel": "446.147634,680.852882,29.597377"
+            },
+            {
+              "@id": "C127",
+              "@data": "71.481770795,108.036933608,13.865847569",
+              "@rawpixel": "446.092445,687.176941,29.597377"
+            },
+            {
+              "@id": "C128",
+              "@data": "78.201277758,78.561282532,11.626011915",
+              "@rawpixel": "490.213740,501.142035,15.431986"
+            },
+            {
+              "@id": "C129",
+              "@data": "78.201277758,78.061282532,11.626011915",
+              "@rawpixel": "490.241335,497.980006,15.431986"
+            },
+            {
+              "@id": "C130",
+              "@data": "77.726936109,78.061282532,11.784125798",
+              "@rawpixel": "487.241570,497.953827,16.431945"
+            },
+            {
+              "@id": "C131",
+              "@data": "77.726936109,78.561282532,11.784125798",
+              "@rawpixel": "487.213975,501.115857,16.431945"
+            },
+            {
+              "@id": "C132",
+              "@data": "76.243209275,103.703665991,12.278701409",
+              "@rawpixel": "476.443211,660.035882,19.559790"
+            },
+            {
+              "@id": "C133",
+              "@data": "76.243209275,103.203665991,12.278701409",
+              "@rawpixel": "476.470806,656.873852,19.559790"
+            },
+            {
+              "@id": "C134",
+              "@data": "75.768867626,103.203665991,12.436815292",
+              "@rawpixel": "473.471041,656.847674,20.559749"
+            },
+            {
+              "@id": "C135",
+              "@data": "75.768867626,103.703665991,12.436815292",
+              "@rawpixel": "473.443447,660.009703,20.559749"
+            },
+            {
+              "@id": "C136",
+              "@data": "79.051746444,105.540251791,11.342522353",
+              "@rawpixel": "494.103205,671.805559,13.639113"
+            },
+            {
+              "@id": "C137",
+              "@data": "79.051746444,104.540251791,11.342522353",
+              "@rawpixel": "494.158395,665.481500,13.639113"
+            },
+            {
+              "@id": "C138",
+              "@data": "78.103063146,104.540251791,11.658750119",
+              "@rawpixel": "488.158866,665.429143,15.639032"
+            },
+            {
+              "@id": "C139",
+              "@data": "78.103063146,105.540251791,11.658750119",
+              "@rawpixel": "488.103677,671.753202,15.639032"
+            },
+            {
+              "@id": "C144",
+              "@data": "57.234949007,97.325845280,0.000000000",
+              "@rawpixel": "356.585843,618.653118,-58.094397"
+            },
+            {
+              "@id": "C145",
+              "@data": "57.234949007,97.325845280,0.869661523",
+              "@rawpixel": "356.585843,618.653118,-52.594397"
+            },
+            {
+              "@id": "C146",
+              "@data": "57.234949007,74.356103682,0.869661523",
+              "@rawpixel": "357.853525,473.391122,-52.594397"
+            },
+            {
+              "@id": "C147",
+              "@data": "57.234949007,74.356103682,10.019235410",
+              "@rawpixel": "357.853525,473.391122,5.270250"
+            },
+            {
+              "@id": "C148",
+              "@data": "57.234949007,100.968422130,10.019235410",
+              "@rawpixel": "356.384812,641.688988,5.270250"
+            },
+            {
+              "@id": "C149",
+              "@data": "57.234949007,100.968422130,0.000000000",
+              "@rawpixel": "356.384812,641.688988,-58.094397"
+            },
+            {
+              "@id": "C150",
+              "@data": "57.234949007,100.968422130,0.474360831",
+              "@rawpixel": "356.384812,641.688988,-55.094397"
+            },
+            {
+              "@id": "C151",
+              "@data": "83.021625686,120.904941791,10.019229272",
+              "@rawpixel": "518.360990,769.191856,5.270211"
+            },
+            {
+              "@id": "C152",
+              "@data": "83.021607400,74.356103682,10.019235368",
+              "@rawpixel": "520.929868,474.814267,5.270249"
+            },
+            {
+              "@id": "C153",
+              "@data": "83.021607400,74.356103682,0.000000000",
+              "@rawpixel": "520.929868,474.814267,-58.094397"
+            },
+            {
+              "@id": "C154",
+              "@data": "83.021625686,120.904941791,0.000000000",
+              "@rawpixel": "518.360990,769.191856,-58.094397"
+            },
+            {
+              "@id": "C155",
+              "@data": "83.021607400,74.356103682,0.474360831",
+              "@rawpixel": "520.929868,474.814267,-55.094397"
+            },
+            {
+              "@id": "C156",
+              "@data": "83.021625686,120.904941791,0.474360831",
+              "@rawpixel": "518.360990,769.191856,-55.094397"
+            },
+            {
+              "@id": "C157",
+              "@data": "59.037820335,120.905246894,10.620192519",
+              "@rawpixel": "366.685978,767.870138,9.070882"
+            },
+            {
+              "@id": "C158",
+              "@data": "70.128278140,120.905105810,14.317011788",
+              "@rawpixel": "436.822693,768.481320,32.450675"
+            },
+            {
+              "@id": "C159",
+              "@data": "57.411584108,120.905267581,0.000000000",
+              "@rawpixel": "356.401564,767.780518,-58.094397"
+            },
+            {
+              "@id": "C160",
+              "@data": "57.411584108,120.905267581,10.620185623",
+              "@rawpixel": "356.401564,767.780518,9.070839"
+            },
+            {
+              "@id": "C161",
+              "@data": "57.411584108,120.905267581,0.474360831",
+              "@rawpixel": "356.401564,767.780518,-55.094397"
+            },
+            {
+              "@id": "C162",
+              "@data": "56.734949007,100.968422130,9.852568743",
+              "@rawpixel": "353.222783,641.661393,4.216200"
+            },
+            {
+              "@id": "C163",
+              "@data": "36.266094568,100.968422130,9.852568743",
+              "@rawpixel": "223.776544,640.531733,4.216200"
+            },
+            {
+              "@id": "C164",
+              "@data": "36.266094568,100.968422130,0.000000000",
+              "@rawpixel": "223.776544,640.531733,-58.094397"
+            },
+            {
+              "@id": "C165",
+              "@data": "36.266094568,100.968422130,0.474360831",
+              "@rawpixel": "223.776544,640.531733,-55.094397"
+            },
+            {
+              "@id": "C166",
+              "@data": "36.266094568,112.088270176,13.559184759",
+              "@rawpixel": "223.162849,710.854305,27.657950"
+            },
+            {
+              "@id": "C167",
+              "@data": "36.266094568,123.208118222,9.852568743",
+              "@rawpixel": "222.549153,781.176878,4.216200"
+            },
+            {
+              "@id": "C168",
+              "@data": "36.266094568,123.208118222,0.000000000",
+              "@rawpixel": "222.549153,781.176878,-58.094397"
+            },
+            {
+              "@id": "C169",
+              "@data": "36.266094568,123.208118222,0.474360831",
+              "@rawpixel": "222.549153,781.176878,-55.094397"
+            },
+            {
+              "@id": "C170",
+              "@data": "57.411568064,123.208124739,9.852566571",
+              "@rawpixel": "356.274369,782.343921,4.216186"
+            },
+            {
+              "@id": "C171",
+              "@data": "57.411568064,123.208124739,0.000000000",
+              "@rawpixel": "356.274369,782.343921,-58.094397"
+            },
+            {
+              "@id": "C172",
+              "@data": "57.411568064,123.208124739,0.474360831",
+              "@rawpixel": "356.274369,782.343921,-55.094397"
+            },
+            {
+              "@id": "C173",
+              "@data": "57.234949007,74.356103682,0.000000000",
+              "@rawpixel": "357.853525,473.391122,-58.094397"
+            },
+            {
+              "@id": "C174",
+              "@data": "70.128278140,74.356103682,14.317011788",
+              "@rawpixel": "439.391696,474.102695,32.450675"
+            },
+            {
+              "@id": "C175",
+              "@data": "57.234949007,74.356103682,0.474360831",
+              "@rawpixel": "357.853525,473.391122,-55.094397"
+            },
+            {
+              "@id": "C176",
+              "@data": "57.234949007,74.356103682,3.147011219",
+              "@rawpixel": "357.853525,473.391122,-38.191755"
+            },
+            {
+              "@id": "C177",
+              "@data": "57.234949007,100.968422130,3.147011219",
+              "@rawpixel": "356.384812,641.688988,-38.191755"
+            }
+          ]
+        }
+      }
+    },
+    "MATERIALS": {
+      "MATERIAL": [
+        {
+          "@id": "1",
+          "@type": "",
+          "@label": "None"
+        },
+        {
+          "@id": "2",
+          "@type": "",
+          "@label": "Siding"
+        },
+        {
+          "@id": "3",
+          "@type": "",
+          "@label": "Masonry"
+        }
+      ]
+    },
+    "SUBTYPES": {
+      "SUBTYPE": [
+        {
+          "@id": "2",
+          "@type": "",
+          "@label": "MAIN_DOOR"
+        },
+        {
+          "@id": "3",
+          "@type": "",
+          "@label": "DOOR"
+        },
+        {
+          "@id": "4",
+          "@type": "",
+          "@label": "GARAGE_DOOR"
+        },
+        {
+          "@id": "5",
+          "@type": "",
+          "@label": "WINDOW"
+        }
+      ]
+    },
+    "OVERALL_SUMMARY": {
+      "ATTRIBUTE": [
+        {
+          "@name": "TotalRoofArea",
+          "@value": "2126"
+        },
+        {
+          "@name": "TotalRoofFacets",
+          "@value": "4"
+        },
+        {
+          "@name": "PredominantPitch",
+          "@value": "4/12"
+        },
+        {
+          "@name": "NumberOfStories",
+          "@value": "<=1"
+        },
+        {
+          "@name": "TotalHipsandRidgesLength",
+          "@value": "81"
+        },
+        {
+          "@name": "TotalRidgesLength",
+          "@value": "81"
+        },
+        {
+          "@name": "TotalHipsLength",
+          "@value": "0"
+        },
+        {
+          "@name": "TotalValleysLength",
+          "@value": "34"
+        },
+        {
+          "@name": "TotalRakesLength",
+          "@value": "93"
+        },
+        {
+          "@name": "TotalEavesLength",
+          "@value": "118"
+        },
+        {
+          "@name": "TotalPenetrationsCount",
+          "@value": "8"
+        },
+        {
+          "@name": "TotalPenetrationsPerimeter",
+          "@value": "28"
+        },
+        {
+          "@name": "TotalPenetrationsArea",
+          "@value": "7"
+        },
+        {
+          "@name": "TotalFlashingLength",
+          "@value": "1"
+        },
+        {
+          "@name": "TotalStepFlashingLength",
+          "@value": "0"
+        },
+        {
+          "@name": "TotalParapetsLength",
+          "@value": "0"
+        },
+        {
+          "@name": "TotalRoofAreaLessPenetrations",
+          "@value": "2119"
+        },
+        {
+          "@name": "RoofAreaPerPitch:4/12",
+          "@value": "2125.8"
+        },
+        {
+          "@name": "TotalRidgesCount",
+          "@value": "2"
+        },
+        {
+          "@name": "TotalHipsCount",
+          "@value": "0"
+        },
+        {
+          "@name": "TotalValleysCount",
+          "@value": "2"
+        },
+        {
+          "@name": "TotalRakesCount",
+          "@value": "7"
+        },
+        {
+          "@name": "TotalEavesCount",
+          "@value": "4"
+        },
+        {
+          "@name": "TotalWallArea",
+          "@value": "1949"
+        },
+        {
+          "@name": "TotalWallAreaLessPenetrations",
+          "@value": "1703"
+        },
+        {
+          "@name": "TotalSidingArea",
+          "@value": "1807"
+        },
+        {
+          "@name": "TotalSidingAreaLessPenetrations",
+          "@value": "1576"
+        },
+        {
+          "@name": "TotalMasonryArea",
+          "@value": "142"
+        },
+        {
+          "@name": "TotalMasonryAreaLessPenetrations",
+          "@value": "128"
+        },
+        {
+          "@name": "TotalWallFacets",
+          "@value": "8"
+        },
+        {
+          "@name": "TotalWindowsAndDoors",
+          "@value": "12"
+        },
+        {
+          "@name": "TotalWindowsAndDoorsArea",
+          "@value": "246"
+        },
+        {
+          "@name": "TotalWindowsAndDoorsPerimeter",
+          "@value": "200"
+        },
+        {
+          "@name": "Fascia",
+          "@value": "209.6"
+        },
+        {
+          "@name": "TotalInsideCornersLength",
+          "@value": "21.5"
+        },
+        {
+          "@name": "TotalOutsideCornersLength",
+          "@value": "58.8"
+        },
+        {
+          "@name": "TotalObtuseInsideCornersLength",
+          "@value": "0"
+        },
+        {
+          "@name": "TotalObtuseOutsideCornersLength",
+          "@value": "0"
+        },
+        {
+          "@name": "TotalTopSidingWallsLength",
+          "@value": "195.1"
+        },
+        {
+          "@name": "TotalBottomSidingWallsLength",
+          "@value": "191.1"
+        },
+        {
+          "@name": "TotalTopMasonryWallsLength",
+          "@value": "0"
+        },
+        {
+          "@name": "TotalBottomMasonryWallsLength",
+          "@value": "191.1"
+        },
+        {
+          "@name": "TotalInsideSidingCornersLength",
+          "@value": "17"
+        },
+        {
+          "@name": "TotalOutsideSidingCornersLength",
+          "@value": "54.1"
+        },
+        {
+          "@name": "TotalObtuseInsideSidingCornersLength",
+          "@value": "0"
+        },
+        {
+          "@name": "TotalObtuseOutsideSidingCornersLength",
+          "@value": "0"
+        },
+        {
+          "@name": "TotalInsideMasonryCornersLength",
+          "@value": "1.9"
+        },
+        {
+          "@name": "TotalOutsideMasonryCornersLength",
+          "@value": "2.5"
+        },
+        {
+          "@name": "TotalObtuseInsideMasonryCornersLength",
+          "@value": "0"
+        },
+        {
+          "@name": "TotalObtuseOutsideMasonryCornersLength",
+          "@value": "0"
+        },
+        {
+          "@name": "TotalInsideSidingToMasonryCornersLength",
+          "@value": "2.7"
+        },
+        {
+          "@name": "TotalOutsideSidingToMasonryCornersLength",
+          "@value": "2.3"
+        },
+        {
+          "@name": "TotalObtuseInsideSidingToMasonryCornersLength",
+          "@value": "0"
+        },
+        {
+          "@name": "TotalObtuseOutsideSidingToMasonryCornersLength",
+          "@value": "0"
+        },
+        {
+          "@name": "SuggestedWastePercentage",
+          "@value": "8"
+        },
+        {
+          "@name": "SuggestedWasteArea",
+          "@value": "2297"
+        },
+        {
+          "@name": "SuggestedWasteSquares",
+          "@value": "23.00"
+        },
+        {
+          "@name": "EstimatedAtticSquareFootage",
+          "@value": "2017"
+        }
+      ]
+    }
+  }
+}
